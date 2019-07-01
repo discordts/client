@@ -37,6 +37,7 @@ pids
 *.pid.lock
 
 # Node/Project
+coverage/
 node_modules/
 dist/
 
