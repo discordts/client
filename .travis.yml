@@ -1,9 +1,18 @@
 language: node_js
 
 node_js:
-  - "12"
-  - "11"
-  - "10"
+  - 'node'
+  - '10'
+  - '8'
+
+install: npm install
+
+script:
+  - npm run build && npm run license
+
+cache:
+  directories:
+    - node_modules
 
 notifications:
   email:

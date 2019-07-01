@@ -36,9 +36,6 @@ pids
 *.seed
 *.pid.lock
 
-# Authentication
-deploy/
-
 # Node/Project
 node_modules/
 src/
@@ -57,3 +54,4 @@ tslint.json
 .gitignore
 .travis.yml
 .github/
+*.tgz

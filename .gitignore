@@ -36,9 +36,6 @@ pids
 *.seed
 *.pid.lock
 
-# Authentication
-deploy/
-
 # Node/Project
 node_modules/
 dist/
@@ -46,4 +43,7 @@ dist/
 # Lock files
 yarn.lock
 package-lock.json
+
+# Misc
+*.tgz
 
